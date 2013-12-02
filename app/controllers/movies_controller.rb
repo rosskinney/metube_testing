@@ -19,4 +19,29 @@ class MoviesController < ApplicationController
     
   end
 
+   def show_prometheus
+    @movie = {
+      title: 'prometheus',
+      subtitle: "We're so wrong!!",
+      video_id: 'N0WUpsErUBA',
+      description: "My favorite trailer"
+    }
+    
+  end
+
+   def show_goodfellas
+    @movie = {
+      title: 'goodfellas',
+      subtitle: "How am I funny?",
+      video_id: 'E84VqqCPI7w',
+      description: "class Peschi"
+    }
+  end
+
+  def show_all
+  end
+
+
+
+
 end
